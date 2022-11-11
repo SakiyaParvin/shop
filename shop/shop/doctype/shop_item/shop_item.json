@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:item_name",
+ "creation": "2022-10-19 12:25:10.699494",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "i_id",
+  "item_name",
+  "i_image",
+  "column_break_6",
+  "i_vehicle",
+  "price",
+  "i_status",
+  "all_items_section",
+  "display_items",
+  "item_display"
+ ],
+ "fields": [
+  {
+   "fieldname": "i_image",
+   "fieldtype": "Attach Image",
+   "label": "Item image"
+  },
+  {
+   "fieldname": "i_vehicle",
+   "fieldtype": "Data",
+   "label": "Vehicle"
+  },
+  {
+   "fieldname": "i_status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nnot"
+  },
+  {
+   "fieldname": "item_display",
+   "fieldtype": "Table",
+   "label": "Item display",
+   "options": "Shop Item Displays"
+  },
+  {
+   "fieldname": "i_id",
+   "fieldtype": "Int",
+   "label": "Item id"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "display_items",
+   "fieldtype": "Button",
+   "label": "Display items"
+  },
+  {
+   "fieldname": "all_items_section",
+   "fieldtype": "Section Break",
+   "label": "All items"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item name",
+   "unique": 1
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "label": "Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-29 15:21:17.274880",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Shop Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

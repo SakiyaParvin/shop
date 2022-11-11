@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-20 19:14:38.229582",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "first_item",
+  "first_item_price",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer name"
+  },
+  {
+   "fieldname": "first_item",
+   "fieldtype": "Data",
+   "label": "First item"
+  },
+  {
+   "fieldname": "first_item_price",
+   "fieldtype": "Int",
+   "label": "First item price"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-22 19:09:34.846628",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Shop Customer Order Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

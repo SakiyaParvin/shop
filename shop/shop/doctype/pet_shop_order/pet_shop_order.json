@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-29 16:48:30.829186",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "bill_id",
+  "date",
+  "gstn",
+  "column_break_4",
+  "customer_name",
+  "phone_number",
+  "column_break_7",
+  "make_order_session_section",
+  "pets",
+  "items",
+  "section_break_11",
+  "total",
+  "column_break_13",
+  "discount",
+  "column_break_15",
+  "net_amount",
+  "section_break_17"
+ ],
+ "fields": [
+  {
+   "fieldname": "make_order_session_section",
+   "fieldtype": "Section Break",
+   "label": "Make Order Session"
+  },
+  {
+   "fieldname": "pets",
+   "fieldtype": "Link",
+   "label": "Pets",
+   "options": "Pet Shop Add Pets"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "items",
+   "options": "Pet Shop Pets"
+  },
+  {
+   "fieldname": "bill_id",
+   "fieldtype": "Int",
+   "label": "Bill_id"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "gstn",
+   "fieldtype": "Data",
+   "label": "Gstn"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer name",
+   "options": "Pet Shop Customer"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone number"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Data",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_amount",
+   "fieldtype": "Data",
+   "label": "Net amount"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "id"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-10-31 15:00:16.650017",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Pet Shop Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

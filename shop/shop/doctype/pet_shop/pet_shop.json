@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:pet_shop_nmae",
+ "creation": "2022-10-31 11:27:58.372734",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pet_shop_nmae",
+  "column_break_2",
+  "details",
+  "column_break_4",
+  "image",
+  "image2",
+  "image3",
+  "image4",
+  "image5",
+  "column_break_6",
+  "route",
+  "published",
+  "section_break_9"
+ ],
+ "fields": [
+  {
+   "fieldname": "pet_shop_nmae",
+   "fieldtype": "Data",
+   "label": "Pet Shop Nmae",
+   "unique": 1
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "Image"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "image2",
+   "fieldtype": "Attach",
+   "label": "Image2"
+  },
+  {
+   "fieldname": "image3",
+   "fieldtype": "Attach",
+   "label": "Image3"
+  },
+  {
+   "fieldname": "image4",
+   "fieldtype": "Attach",
+   "label": "Image4"
+  },
+  {
+   "fieldname": "image5",
+   "fieldtype": "Attach",
+   "label": "Image5"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "published",
+ "links": [],
+ "modified": "2022-11-02 12:49:00.423578",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Pet Shop",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "PetShop",
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

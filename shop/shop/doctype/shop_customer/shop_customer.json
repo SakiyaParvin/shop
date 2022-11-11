@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2022-10-19 16:02:06.655716",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "shop_customer_id",
+  "shop_customer_dob",
+  "shop_customer_age",
+  "shop_customer_address",
+  "column_break_4",
+  "section_break_5",
+  "from_date",
+  "to_date",
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "shop_customer_id",
+   "fieldtype": "Int",
+   "label": "Shop customer id"
+  },
+  {
+   "fieldname": "shop_customer_address",
+   "fieldtype": "Small Text",
+   "label": "Shop customer address"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shop_customer_dob",
+   "fieldtype": "Date",
+   "label": "Shop customer dob"
+  },
+  {
+   "fieldname": "shop_customer_age",
+   "fieldtype": "Int",
+   "label": "Shop customer age"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "id",
+   "unique": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-10-28 10:51:29.621363",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Shop Customer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

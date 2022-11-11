@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "creation": "2022-10-18 21:16:10.748769",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_id",
+  "shop_name",
+  "shop_image",
+  "column_break_4",
+  "shop_address",
+  "shop_contact",
+  "gst",
+  "section_break_7",
+  "route",
+  "published"
+ ],
+ "fields": [
+  {
+   "fieldname": "shop_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shop name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shop_image",
+   "fieldtype": "Attach Image",
+   "label": "Shop image"
+  },
+  {
+   "fieldname": "shop_address",
+   "fieldtype": "Small Text",
+   "label": "Shop address"
+  },
+  {
+   "fieldname": "shop_contact",
+   "fieldtype": "Data",
+   "label": "Shop contact"
+  },
+  {
+   "fieldname": "shop_id",
+   "fieldtype": "Int",
+   "label": "shop id"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "gst",
+   "fieldtype": "Data",
+   "label": "GSTN"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "published",
+ "links": [],
+ "modified": "2022-10-24 21:03:35.221007",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Shop Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Shop Ownwe",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "shop",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "shop_name"
+}

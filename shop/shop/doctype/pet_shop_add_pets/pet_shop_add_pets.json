@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:pet_name",
+ "creation": "2022-10-29 16:54:14.318374",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "idn",
+  "pet_name",
+  "pet_category",
+  "column_break_3",
+  "pet_price",
+  "qty",
+  "date_of_add",
+  "column_break_5",
+  "all_items_session",
+  "pets",
+  "all_items",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "pet_name",
+   "fieldtype": "Data",
+   "label": "Pet name",
+   "unique": 1
+  },
+  {
+   "fieldname": "pet_category",
+   "fieldtype": "Data",
+   "label": "Pet category"
+  },
+  {
+   "fieldname": "pet_price",
+   "fieldtype": "Int",
+   "label": "Pet price"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "all_items",
+   "fieldtype": "Table",
+   "label": "All Items",
+   "options": "Pet Shop Pets"
+  },
+  {
+   "fieldname": "all_items_session",
+   "fieldtype": "Section Break",
+   "label": "All Items Session"
+  },
+  {
+   "fieldname": "pets",
+   "fieldtype": "Button",
+   "label": "Pets"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "idn",
+   "fieldtype": "Int",
+   "label": "idn"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "date_of_add",
+   "fieldtype": "Date",
+   "label": "Date of add"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-03 10:54:01.974860",
+ "modified_by": "Administrator",
+ "module": "shop",
+ "name": "Pet Shop Add Pets",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
